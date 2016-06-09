@@ -14,9 +14,9 @@ namespace core {
 
   class Commands {
     private:
-      std::string commnad;
+      std::string command;
     public:
-      explicit Commands(std::string c) : commnad(c) {}
+      explicit Commands(std::string c) : command(c) {}
       virtual void process_command() = 0;
   };
 
