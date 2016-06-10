@@ -17,6 +17,7 @@ namespace core {
       std::string command;
     public:
       explicit Commands(std::string c) : command(c) {}
+      bool validation();
       virtual void process_command() = 0;
   };
 
